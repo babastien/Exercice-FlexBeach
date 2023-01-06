@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    font-family: arial;
+    text-align: center;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.logo2 {
+    width: 20px;
+    height: 20px;
+}
+
+.first-bloc {
+    background-image: url(./beach.jpg);
+    background-position: center;
+    width: 100%;
+    height: 27.5vw;
+}
+
+.icones {
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 2vw;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+}
+
+.nav-gauche {
+    display: flex;
+    align-items: center;
+}
+
+.nav-droite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    padding: 0 5px;
+}
+
+.nav-droite:first-child {
+    border-top: 2px solid red;
+}
+
+#logo-flex {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.flex {
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.home {
+    color: red;
+    border-top: 2px solid red;
+    padding-top: 15.5px;
+    margin-bottom: 17.5px;
+}
+
+.first-bloc-bottom {
+    padding: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    width: 200px;
+
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.logo3 {
+   width: 30px;
+   height: 30px; 
+   margin-bottom: 30px;
+
+}
+
+.underline {
+    text-decoration:underline;
+    margin-bottom: 5px;
+}
+
+.logo2 {
+    padding-top: 65px;
+}
+
+.blocs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.bloc1 {
+    background-color: turquoise;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+.bloc2 {
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+.bloc3 {
+    background-color: rgb(98, 181, 232);
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+}
+
+.bloc4 {
+    background-color: rgb(30, 210, 126);
+    width: 150px;
+    height: 150px;
+}
